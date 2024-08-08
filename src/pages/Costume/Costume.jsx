@@ -1,7 +1,7 @@
 import React from 'react';
 import './Costume.scss'
 import { useDispatch, useSelector } from 'react-redux';
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 import lin from './Vector 153 (2).png'
 import { addToFavor } from '../../store/favorSlice';
 const Costume = () => {

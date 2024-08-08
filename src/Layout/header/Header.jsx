@@ -42,7 +42,7 @@ const Header = () => {
             <div className="header__logo">
             <img src={logo} alt="" />
             </div>
-            <Link to='/favourite'><img src={like} alt="" className='header__favourite'/></Link>  
+            <Link to='/favourite' className='sm-hide'><img src={like} alt="" className='header__favourite'/></Link>  
             <Link to={'/shop'}>
             <img src={shop} alt="" className='header__shop'/>
             <span className='header__shoplist'>{shopList}</span>

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Jackets.scss'
 import lin from './Vector 153 (2).png'
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { addToFavor } from '../../store/favorSlice';
 const Jackets = () => {

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './BottomCloth.scss'
 import line from './Rectangle 163 (1).png'
 import lin from './Vector 153 (2).png'
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { addToFavor } from '../../store/favorSlice';
 const BottomCloth = () => {

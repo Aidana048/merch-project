@@ -43,12 +43,6 @@ const Goods = (el) => {
                     <h3>{one.price}</h3>
                     <p>Выбрать размер:</p>
                     <div className="goods__size">
-                        {/* <button>XS-S</button>
-                        <button>S-M</button>
-                        <button>M-L</button>
-                        <button>L-XL</button> */}
-
-                    
                         <select onChange={(e)=>changeSize(e)} name="" id="">
                         <option  value="XS">XS</option>
                         <option  value="S">S</option>

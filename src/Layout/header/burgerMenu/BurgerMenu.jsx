@@ -8,6 +8,7 @@ import { useDispatch, useSelector } from "react-redux";
 import shop from "./akar-icons_shopping-bag.png";
 import { PiUserCircle, PiUserCircleCheck } from "react-icons/pi";
 import { logOut } from "../../../store/userRegis";
+import like from './akar-icons_heart.png'
 
 const options = [
   { label: "НОВИНКИ", path: "/" },
@@ -70,12 +71,8 @@ const BurgerMenu = () => {
           },
         }}
       >
-        <MenuItem onClick={() => handleMenuItemClick("/shop")}>
-          <img src={shop} alt="shop" style={{ marginRight: "10px" }} />
-          Магазин
-          <span className="header__shoplist" style={{ marginLeft: "auto" }}>
-            {shopList}
-          </span>
+        <MenuItem onClick={() => handleMenuItemClick("/favourite")}>
+          <img src={like} alt="" className='header__favourite'/>
         </MenuItem>
         {options.map((option) => (
           <MenuItem

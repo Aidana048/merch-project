@@ -29,6 +29,12 @@
       "email": "abdrahmanovaaidana3@gmail.com",
       "password": "200425",
       "id": 5
+    },
+    {
+      "name": "qq",
+      "email": "qw",
+      "password": "qw",
+      "id": 6
     }
   ],
   "products": [

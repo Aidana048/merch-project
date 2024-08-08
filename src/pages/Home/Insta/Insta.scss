@@ -2,13 +2,13 @@
 
     &__our {
         display: flex;
-        flex-direction: column; // Вертикальное размещение по умолчанию
-        align-items: center; // Центрирование элементов по горизонтали
+        // flex-direction: column; 
+        align-items: center;
         margin-bottom: 60px;
       }
     
       &__left {
-        text-align: center; // Центрирование текста
+        text-align: center;
       }
     
       &__left p {
@@ -38,7 +38,7 @@
       &__three {
         width: 370px;
         height: 370px;
-        margin: 0 auto; // Центрирование изображения
+        margin: 0 auto;
       }
     
       &__four {
@@ -52,8 +52,8 @@
       }
     
       &__right {
-        text-align: center; // Центрирование текста
-        margin-top: 20px; // Отступ сверху для разделения
+        text-align: center; 
+        margin-top: 20px; 
       }
     
       &__right h2 {
