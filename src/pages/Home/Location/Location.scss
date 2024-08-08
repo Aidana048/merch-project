@@ -1,0 +1,99 @@
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative; /* Добавляем позиционирование */
+        width: 100%;
+    }
+
+    &__image {
+        text-align: center;
+        position: relative;
+    }
+
+    &__photo {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    &__booriv {
+        position: absolute; /* Позиционируем относительно родителя */
+        bottom: 350px;
+        right:  750px; /* Отступ от правого края */
+    }
+
+    &__booriva {
+        max-width: 100%; /* Можете добавить максимальную ширину, если нужно */
+        height: auto;
+    }
+    &__icon{
+        position: relative;
+    }
+    &__s{
+        position: absolute;
+        bottom: 320px;
+        left: -30px;
+    }
+    &__heart{
+        position: absolute;
+        bottom: 230px;
+        left: 50px;
+    }
+    &__zig{
+        position: absolute;
+        bottom: 150px;
+        left: -50px;
+    }
+    &__a{
+        position: absolute;
+        bottom: 200px;
+        left: 150px;
+    }
+    &__b{
+        position: absolute;
+        bottom: 210px;
+        left: 20px;
+    }
+    &__info{
+        position: relative;
+        
+    }
+    &__info p{
+        position: absolute;
+        top: 150px;
+        right:580px;
+        width: 220px;
+        height: 60px;
+        font-weight: 400;
+font-size: 16px;
+line-height: 125%;
+color: #1F1F1F;
+    }
+    &__decs{
+        position: relative;
+    }
+    &__decs p{
+        position: absolute;
+        left: 20px;
+
+        width: 230px;
+        height: 120px;
+        font-weight: 400;
+font-size: 16px;
+line-height: 125%;
+    }
+    &__map{
+        position: relative;
+    }
+    &__loc{
+        position: absolute;
+        top: 150px;
+        left: -205px;
+    }
+}

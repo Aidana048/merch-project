@@ -1,0 +1,74 @@
+.footer{
+    background: #FDA3C4;
+    
+    &__our{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    &__logo{
+        width: 96px;
+        height: 25px;
+        margin-top: 60px;
+    }
+    &__info h3{
+        font-weight: 800;
+font-size: 18px;
+color: #f40000;
+margin-top: 60px;
+margin-bottom: 15px;
+    }
+    &__ul li{
+        margin-bottom: 10px;
+    }
+    &__ul{
+        margin-bottom: 60px;
+    }
+    &__adres h3{
+        font-weight: 800;
+        font-size: 18px;
+        color: #f40000;
+        margin-top: 60px;
+        margin-bottom: 15px;
+    }
+    &__social{
+        font-weight: 800;
+        font-size: 18px;
+        color: #f40000;
+        margin-top: 60px;
+    }
+    &__soc{
+       
+        margin-top: 20px;
+    }
+    &__insta{
+        margin-right: 15px;
+        margin-left: 25px;
+    }
+    &__card{
+        display: flex;
+        column-gap: 31px;
+        margin-top: 65px;
+    }
+    &__photo{
+        border-radius: 100%;
+        width: 51px;
+        height: 51px;
+        
+    }
+    &__cards p{
+        font-weight: 400;
+font-size: 12px;
+color: #fff;
+margin-bottom: 20px;
+    }
+    &__cards a{
+        font-weight: 800;
+        font-size: 18px;
+        color: #f40000;
+    }
+    &__socc{
+        display: none;
+     }
+
+}

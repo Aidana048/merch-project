@@ -1,0 +1,62 @@
+.favourite {
+    &__image {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; 
+      gap: 20px;
+    }
+  
+    &__img {
+      width: 100%;
+      height: auto;
+    }
+  
+    &__photo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: calc(50% - 20px); 
+    }
+  
+    &__line {
+      width: 74%;
+      margin: 10px 0;
+    }
+  
+    &__info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+  
+    &__price {
+      font-weight: 700;
+      font-size: 25px;
+      color: #fda3c4;
+    }
+  
+    &__p {
+      font-weight: 400;
+      font-size: 20px;
+      color: #1f1f1f;
+      text-align: center;
+      width: 300px;
+      height: 40px;
+    }
+  
+    &__row {
+      margin-top: 30px;
+      display: flex;
+      align-items: center;
+    }
+  
+    &__favor {
+      border: none;
+      margin-left: 10px;
+      width: 30px;
+      height: 30px;
+      background: none;
+    }
+  }
+  

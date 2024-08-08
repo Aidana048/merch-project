@@ -1,0 +1,84 @@
+.NewItems {
+    font-family: "Montserrat", sans-serif;
+    height: 654px;
+  
+    &__logo img {
+      margin-top: 40px;
+      
+      margin-bottom: 20px;
+    }
+  
+    &__container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    &__items {
+      display: flex;
+      justify-content: space-between;
+      column-gap: 20px;
+      margin-top: 30px;
+    }
+  
+    &__item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      width: 300px; 
+      text-align: center;
+    }
+  
+    &__item img {
+      height: 334px;
+      width: auto;
+    }
+  
+    &__line {
+      width: 100%;
+      height: 2px;
+      background-color: #FF69B4;
+      margin-top: 15px;
+      margin-bottom: 20px;
+    }
+  
+    &__description {
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: center;
+    }
+  
+    &__description p {
+      margin: 0;
+      font-weight: 400;
+      font-size: 16px;
+      color: #1f1f1f;
+    }
+  
+    &__description h3 {
+      font-weight: 700;
+      font-size: 24px;
+      color: #fda3c4;
+      margin: 0;
+    }
+  
+    &__image {
+      position: relative;
+    }
+  
+    &__image img {
+      width: 26px;
+      height: 24px;
+      position: absolute;
+      top: -480px;
+      right: -185px;
+    }
+  
+    &__item img:last-child {
+      display: none;
+    }
+  }
+  

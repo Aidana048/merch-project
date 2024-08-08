@@ -1,0 +1,23 @@
+
+.banner__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner__row {
+    display: flex;
+    margin-top: 15px; 
+}
+
+.banner__item {
+    margin-right: 15px;
+}
+
+.banner__item:last-child {
+    margin-right: 0; 
+}
+
+.banner__item img {
+    max-width: 100%; 
+}

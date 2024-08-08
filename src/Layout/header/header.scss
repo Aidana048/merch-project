@@ -1,0 +1,61 @@
+.header{
+    padding: 51px 0 41px;
+    font-family: "Montserrat", sans-serif;
+    
+   &__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   a{
+    text-decoration: none;
+    color: black;
+   }
+   &__logo{
+    margin-right: 100px;
+   }
+   &__user{
+    font-size: 34px;
+    
+    cursor: pointer;
+   }
+   &__line{
+    max-width: 1199px;
+    width: 100%;
+   }
+   button{
+    width: 50px;
+    height: 25px;
+    border-radius: 15px;
+    border:  none;
+    background: #fda3c4;
+    cursor: pointer;
+    color: #1f1f1f;
+
+
+   }
+   
+   &__category{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 26px;
+    color: #1f1f1f;
+    font-weight: 600;
+font-size: 16px;
+text-transform: uppercase;
+cursor: pointer;
+
+   }
+   li:hover{
+    color: #fda3c4;
+   }
+   .burger {
+    display: none;
+   }
+   &__shoplist {
+    margin-left: 10px; 
+    font-weight: bold; 
+  }
+  
+}

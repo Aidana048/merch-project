@@ -1,0 +1,92 @@
+.shop{
+    margin-left: 800px;
+    width: 518px;
+    position: relative;
+    &__delete{
+        font-size: 25px;
+    }
+    &__cross{
+        margin-left: 450px;
+        font-size: 25px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    &__item button{
+        position: absolute;
+        width: 20px;
+        height:20px;
+        border-radius: 50%;
+        right: 25px;
+        border: none;
+        font-size: 20px;
+        background: none;
+        cursor: pointer;
+    }
+    &__title{
+        font-weight: 700;
+font-size: 25px;
+text-transform: uppercase;
+color: #000;
+margin-left: 235px;
+margin-top: 25px;
+margin-bottom: 40px;
+    }
+    &__item{
+       display: flex;
+       justify-content: space-around;
+       margin-bottom: 50px;
+    }
+    &__inf{
+        margin-top: 50px;
+    }
+    &__inf h2{
+        margin-left: 50px;
+        margin-top: 25px;
+        font-size: 20px;
+    }
+    &__inf h3{
+        font-weight: 600;
+font-size: 23px;
+color: #000;
+margin-bottom: 10px;
+margin-left: 50px;
+    }
+    &__inf h4{
+        font-weight: 400;
+font-size: 14px;
+color:  #1f1f1f;
+margin-bottom: 10px;
+    }
+    &__inf p{
+        font-weight: 700;
+font-size: 25px;
+color: #FDA3C4;
+margin-left: 50px;
+
+    }
+    &__img{
+        width: 200px;
+       
+    }
+    &__sum h1{
+        font-weight: 400;
+font-size: 25px;
+color: #000;
+    }
+    &__sum{
+        display: flex;
+        margin-left: 100px;
+        margin-bottom: 50px;
+    }
+    &__sum p{
+        font-weight: 700;
+font-size: 25px;
+text-align: right;
+color: #000;
+    }
+    &__btn{
+        margin-left: 150px;
+        margin-bottom: 50px;
+    }
+
+}

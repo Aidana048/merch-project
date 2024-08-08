@@ -1,0 +1,74 @@
+.insta{
+
+    &__our {
+        display: flex;
+        flex-direction: column; // Вертикальное размещение по умолчанию
+        align-items: center; // Центрирование элементов по горизонтали
+        margin-bottom: 60px;
+      }
+    
+      &__left {
+        text-align: center; // Центрирование текста
+      }
+    
+      &__left p {
+        font-weight: 400;
+        font-size: 16px;
+        color: #1f1f1f;
+        margin-top: 10px;
+        margin-bottom: 35px;
+      }
+    
+      &__one {
+        width: 205px;
+        height: 205px;
+      }
+    
+      &__two {
+        width: 168px;
+        height: 168px;
+        margin-top: 37px;
+      }
+    
+      &__card {
+        display: flex;
+        column-gap: 5px;
+      }
+    
+      &__three {
+        width: 370px;
+        height: 370px;
+        margin: 0 auto; // Центрирование изображения
+      }
+    
+      &__four {
+        width: 168px;
+        height: 168px;
+      }
+    
+      &__five {
+        width: 205px;
+        height: 205px;
+      }
+    
+      &__right {
+        text-align: center; // Центрирование текста
+        margin-top: 20px; // Отступ сверху для разделения
+      }
+    
+      &__right h2 {
+        font-weight: 600;
+        font-size: 42px;
+        color: #f40000;
+        margin-top: 65px;
+        margin-left: 10px;
+      }
+    
+      &__right p {
+        font-weight: 400;
+        font-size: 16px;
+        color: #1f1f1f;
+        margin-left: 90px;
+        margin-top: 10px;
+      }
+    }

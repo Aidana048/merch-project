@@ -1,0 +1,2075 @@
+{
+  "users": [
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 1
+    },
+    {
+      "name": "aidana",
+      "email": "abdrahmanovaaidana3@gmail.com",
+      "password": "200425",
+      "id": 2
+    },
+    {
+      "name": "aidana",
+      "email": "abdrahmanovaaidana3@gmail.com",
+      "password": "200425",
+      "id": 3
+    },
+    {
+      "name": "aidana",
+      "email": "abdrahmanovaaidana3@gmail.com",
+      "password": "200425",
+      "id": 4
+    },
+    {
+      "name": "aidana",
+      "email": "abdrahmanovaaidana3@gmail.com",
+      "password": "200425",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "image": "https://marmalato.ru/upload/iblock/6d3/u9rsgozkxir31v1odruiyujxijolsoip.jpg",
+      "description": "Over size бомбер цвета хаки ",
+      "price": "2 499 ₴",
+      "title": "Куртки",
+      "category": "Куртки",
+      "view": "new",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 2,
+      "image": "https://i.pinimg.com/736x/d3/36/72/d336726ed8f483bc17b0d42f8856e693.jpg",
+      "description": "Куртка женская весна 2024 короткая модная оверсайз",
+      "price": "3 560 ₴",
+      "title": "Куртки",
+      "category": "Куртки",
+      "view": "new",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 3,
+      "image": "https://ir.ozone.ru/s3/multimedia-k/wc1000/6152623928.jpg",
+      "title": "Куртки",
+      "description": "Куртка Rufina в черном цвете",
+      "price": "1 200 ₴",
+      "category": "Куртки",
+      "view": "old",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    {
+      "id": 4,
+      "image": "https://img.joomcdn.net/93c21b05e30eed2f9289cdfb26f0f1ac8b5c006c_original.jpeg",
+      "title": "Куртки",
+      "description": "Длинная куртка оверсайзс капюшоном",
+      "price": "3 500 ₴",
+      "category": "Куртки",
+      "view": "new",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 5,
+      "image": "https://img.joomcdn.net/fb7907d646445e5c102f1004b5d7a765eab06731_original.jpeg",
+      "title": "Куртки",
+      "price": "4 315 ₴",
+      "category": "Куртки",
+      "description": "Куртка на утином пуху,свободная куртка",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 6,
+      "image": "https://img.joomcdn.net/341b4afab4960b1bb39c23f4afb7631acadd130c_original.jpeg",
+      "title": "Куртки",
+      "price": "2 441 ₴",
+      "category": "Куртки",
+      "description": "Модный дизайн,серая короткая пуховая куртка",
+      "view": "new",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 7,
+      "image": "https://img.joomcdn.net/d4a6fcd71ee15684ee62f844d59c7c866b4ace14_original.jpeg",
+      "title": "Куртки",
+      "price": "5 450 ₴",
+      "category": "Куртки",
+      "description": "Зимняя куртка, хлопковая куртка,с капюшоном",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 8,
+      "image": "https://img.joomcdn.net/1a5fcfa2e0915fc9a108f6734b3562a5136153ba_original.jpeg",
+      "title": "Куртки",
+      "price": "1 430₴",
+      "category": "Куртки",
+      "description": "Винтажные куртки в стиле хип-хоп,японская мода",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 9,
+      "image": "https://img.joomcdn.net/bd9e294ca7a94807138fc8aa3f1a3754ff0a544a_1024_1024.jpeg",
+      "title": "Куртки",
+      "price": "600₴",
+      "category": "Куртки",
+      "description": "MAITA Тонкая дышащая куртка",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 10,
+      "image": "https://img.joomcdn.net/a000d81fde452af58b999d970e4984471cc8c369_original.jpeg",
+      "title": "Куртки",
+      "category": "Куртки",
+      "price": "1 085 ₴",
+      "description": "Спортивная куртка весна и осень в стиле ретро",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 11,
+      "image": "https://img.joomcdn.net/f3b574ed57ca6f4fdfb28d39d4d4ad18a2886e2c_original.jpeg",
+      "category": "Платья",
+      "title": "Платья",
+      "price": "1 000 ₴",
+      "description": "Повседневное вечернее платье с цветочным принтом",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 12,
+      "image": "https://img.joomcdn.net/296164d54d1dac8a16641db3da188deb684816a7_original.jpeg",
+      "title": "Платья",
+      "category": "Платья",
+      "price": "2 500 ₴",
+      "description": "Платье-комбинация с французским темпераментом ",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 13,
+      "image": "https://img.joomcdn.net/06f8d7c2a6ed58ed3fb3fa3a7ce07ca3ac74ad35_original.jpeg",
+      "title": "Платья",
+      "category": "Платья",
+      "price": "1 035 ₴",
+      "description": "Женские готические черные платья с длинным рукавом",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 14,
+      "image": "https://img.joomcdn.net/52c3bf7ce018df8a30a56ac6d24ad68459925ae6_original.jpeg",
+      "title": "Платья",
+      "category": "Платья",
+      "price": "1 243 ₴",
+      "description": "Летние женские платья с длинным рукавом",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 15,
+      "image": "https://img.joomcdn.net/c3e8700b03e77de7cf4da4e8b1c6601dfcb7b14d_original.jpeg",
+      "title": "",
+      "category": "Платья",
+      "price": "718 ₴",
+      "description": "Длинное платье футболка с вырезом до бедра",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 16,
+      "image": "https://img.joomcdn.net/a091473978667be4e749dac41f62299001b4f7f0_original.jpeg",
+      "title": "Платья",
+      "category": "Платья",
+      "price": "1 452 ₴",
+      "description": "Летнее платье-рубашка без рукавов.",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 17,
+      "image": "https://img.joomcdn.net/4b32e6995ac5e9e310a2a52f601eb3dd94290a56_original.jpeg",
+      "category": "Платья",
+      "title": "Платья",
+      "price": "880 ₴",
+      "description": "Женское платье с пышными рукавами и цветочным принтом",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 18,
+      "image": "https://img.joomcdn.net/1fbaeaa664cc96cdac1c6efdc87cb6157751b166_original.jpeg",
+      "category": "Платья",
+      "title": "Платья",
+      "price": "709 ₴",
+      "description": "Пряное платье на бретельках с высокой талией",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 19,
+      "image": "https://img.joomcdn.net/73c2d9c78511e42446338950106a679efa612f5c_1024_1024.jpeg",
+      "title": "Платья",
+      "category": "Платья",
+      "price": "1 235 ₴",
+      "description": "Летнее женское платье, длинное платье без рукавов",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 20,
+      "image": "https://img.joomcdn.net/44d8146784b526a76806999f9a382be35316be94_original.jpeg",
+      "title": "Платья",
+      "price": "1 084 ₴",
+      "category": "Платья",
+      "description": "Celmia Летнее женское праздничное платье ",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 21,
+      "image": "https://img.joomcdn.net/545c37d6020c6861edd6ed58c0d66ef886eeb53c_original.jpeg",
+      "category": "Верх",
+      "title": "Пиджаки",
+      "price": "1 243 ₴",
+      "description": "IELGY Маленький пиджак  в корейском стиле",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 22,
+      "image": "https://img.joomcdn.net/9bdb56d29ab31e4d91de171a8fb68a9ca2cb8c49_original.jpeg",
+      "title": "Пиджаки",
+      "price": "1 305 ₴",
+      "description": "Пиджак в черном цвете  ",
+      "category": "Верх",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 23,
+      "image": "https://img.joomcdn.net/3cf0166b798804f1643498b7e4ef1dfb09272634_original.jpeg",
+      "title": "Пиджаки",
+      "category": "Верх",
+      "price": "1 431 ₴",
+      "description": "Модный женский изумрудно-зеленый пиджак ",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 24,
+      "image": "https://img.joomcdn.net/db750e5c0a44e5380ed559b013cb7ae338e41950_original.jpeg",
+      "category": "Верх",
+      "title": "Пиджаки",
+      "price": "1 066 ₴",
+      "description": "Осенний женский элегантный твидовый кардиган",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 25,
+      "image": "https://img.joomcdn.net/8b844cddd46ac6146c3a7ea468752333ffceff59_original.jpeg",
+      "category": "Верх",
+      "title": "Пиджаки",
+      "price": "1 500 ₴",
+      "description": "Женский однотонный черный пиджак с карманами на пуговицах",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 26,
+      "image": "https://img.joomcdn.net/0c4e998a09c3beec2122f372d25a0febba3d0512_original.jpeg",
+      "category": "Верх",
+      "title": "Рубашки",
+      "price": "800 ₴",
+      "description": "Солнцезащитная рубашка,повседневная свободная рубашка",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 27,
+      "image": "https://img.joomcdn.net/44387e222093f16b900b018be3bf723846f1c04a_original.jpeg",
+      "title": "Рубашки",
+      "category": "Верх",
+      "price": "735 ₴",
+      "description": "HOUZHOU Белые рубашки, женские однобортные рубашки",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 28,
+      "image": "https://img.joomcdn.net/cebec30dbb324be5181dbdc4b104451aab2345a8_original.jpeg",
+      "title": "Рубашки",
+      "price": "1 035 ₴",
+      "category": "Верх",
+      "description": "HOUZHOU Белые рубашки, женские однобортные рубашки",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 29,
+      "category": "Верх",
+      "image": "https://img.joomcdn.net/c1fabdf2e5593531fa23ec099a13a4b9cb9fa050_original.jpeg",
+      "title": "Рубашки",
+      "price": "1 000 ₴",
+      "description": "YYFS Женские модные повседневные весенне-осенние топы-поло",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 30,
+      "category": "Верх",
+      "image": "https://img.joomcdn.net/32f3138bb6bd16f61ceb1311392a4b0bc52c4d34_original.jpeg",
+      "title": "Рубашки",
+      "price": "800 ₴",
+      "description": "HOUZHOU Шифоновая рубашка, большого размера",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 31,
+      "image": "https://img.joomcdn.net/57dd19f4eb0c8ea308fc4a099a68045d3c8a2839_original.jpeg",
+      "category": "Верх",
+      "title": "Рубашки",
+      "price": "1 243 ₴",
+      "description": "Рубашка с длинными рукавами и отложным воротником",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 32,
+      "image": "https://img.joomcdn.net/afa6ff9b62fafe3bcadb458c0bd5e2904e761ce0_original.jpeg",
+      "category": "Верх",
+      "title": "Свитшоты",
+      "price": "1 166 ₴",
+      "description": "Женские винтажные толстовки в стиле Харадзюку",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 33,
+      "category": "Верх",
+      "image": "https://img.joomcdn.net/972e94d06097c6d818d8995e5ecba4ddd752bce6_original.jpeg",
+      "title": "Свитшоты",
+      "price": "1 500 ₴",
+      "description": "Женская короткая толстовка с высокой талией",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 34,
+      "image": "https://img.joomcdn.net/b9ad74695759bfd3bef2c710a6c06fd758802645_original.jpeg",
+      "category": "Верх",
+      "title": "Свитшоты",
+      "price": "1 000 ₴",
+      "description": "Женская толстовка из двух частей, свободный топ",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 35,
+      "image": "https://img.joomcdn.net/c9470f5c26eb049a4bf8317b80c511247c165184_original.jpeg",
+      "category": "Верх",
+      "title": "Свитшоты",
+      "price": "1 066 ₴",
+      "description": "Женская толстовка с капюшоном, модный свободный топ",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 36,
+      "category": "Верх",
+      "image": "https://img.joomcdn.net/2d9626fa5707060c06674c3d56124b197d37bf98_original.jpeg",
+      "title": "Свитшоты",
+      "price": "800 ₴",
+      "description": "Осенняя корейская версия, свободная повседневная толстовка",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 37,
+      "image": "https://img.joomcdn.net/8880b52f9ff3245ef2d0d2af35547d6fdb39e902_original.jpeg",
+      "category": "Верх",
+      "title": "Худи",
+      "price": "2 000 ₴",
+      "description": "Пуловер с длинными рукавами и передним карманом ",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 38,
+      "category": "Верх",
+      "image": "https://img.joomcdn.net/615f00cb09bfd1b7ee8f62281f6171a0e2b38185_original.jpeg",
+      "title": "Худи",
+      "price": "1 835 ₴",
+      "description": "90 s Y2k мультяшный кот толстовка",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 39,
+      "image": "https://img.joomcdn.net/ed6580db828a8bebb25ec1e570cd9123ecc249f1_original.jpeg",
+      "category": "Верх",
+      "title": "Худи",
+      "price": "3 500 ₴",
+      "description": "Женская толстовка с капюшоном, зимние свободные толстовки",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 40,
+      "image": "https://img.joomcdn.net/00756c8f1eb5b244fd6d25dffef2c68d2652a79a_original.jpeg",
+      "category": "Верх",
+      "title": "Худи",
+      "price": "2 441 ₴",
+      "description": "Женская толстовка с капюшоном, зимние свободные толстовки",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 41,
+      "image": "https://img.joomcdn.net/d038f71fa32b7a676b85d8ec6c18323150edcc92_original.jpeg",
+      "category": "Верх",
+      "title": "Худи",
+      "price": "2 500 ₴",
+      "description": "Толстовки с рогом дьявола в стиле ретро Y2k",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 42,
+      "image": "https://img.joomcdn.net/703d2202c819f8669c2df64617f852a65173e631_original.jpeg",
+      "category": "Верх",
+      "title": "Топы",
+      "price": "500 ₴",
+      "description": "Женская уличная майка Y2k с вышивкой буквами ",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 43,
+      "image": "https://img.joomcdn.net/8d2f0e54236186606d436b34a6bdd3edda15680f_original.jpeg",
+      "category": "Верх",
+      "title": "Топы",
+      "price": "880 ₴",
+      "description": "Дизайнерские короткие майки с буквенным принтом ",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 44,
+      "image": "https://img.joomcdn.net/c2c0233040af98a24ba1b4dae29ec9fb62f0ef5c_original.jpeg",
+      "category": "Верх",
+      "title": "Топы",
+      "price": "300 ₴",
+      "description": "ITOOLIN Ледяной шелк, женские майки-спагетти",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 45,
+      "image": "https://img.joomcdn.net/598b65f87506507e37ffe2389ce0e5138c2ac02c_original.jpeg",
+      "category": "Верх",
+      "title": "Топы",
+      "price": "1 000 ₴",
+      "description": "Розовый обтягивающий укороченный топ с вырезом на талии",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 46,
+      "image": "https://img.joomcdn.net/dd1a51df973573cf63f20743f8aa556ac4ea9f07_original.jpeg",
+      "category": "Верх",
+      "title": "Топы",
+      "price": "500 ₴",
+      "description": "Женские топы на бретелях с леопардовым принтом",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 47,
+      "image": "https://img.joomcdn.net/f7c8f418c9c8002a5c07a9e08abd4789e94cce02_original.jpeg",
+      "category": "Верх",
+      "title": "Топы",
+      "price": "300 ₴",
+      "description": " футболка с короткими рукавами облегающий топ",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 48,
+      "image": "https://img.joomcdn.net/b59a7f94cd8faa8704bf0d729a74ceafe6b11677_original.jpeg",
+      "category": "Верх",
+      "title": "Футболки",
+      "price": "1 085 ₴",
+      "description": "Винтажные мужские футболки из тяжелой ткани ",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 49,
+      "image": "https://img.joomcdn.net/5c5d00f856237eeb943d8342c4c01bdfc1a0f195_original.jpeg",
+      "category": "Верх",
+      "title": "Футболки",
+      "price": "735 ₴",
+      "description": "Лето 2024, модные женские футболки с цветочным принтом",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 50,
+      "image": "https://img.joomcdn.net/de8e02abdc8f92648ede8aa9d543170b584704f6_original.jpeg",
+      "category": "Верх",
+      "title": "Футболки",
+      "price": "800 ₴",
+      "description": "Модная повседневная свободная базовая футболка с вышивкой",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 51,
+      "image": "https://img.joomcdn.net/5ee9917c702f2c32c55de836fdda01a26b678588_original.jpeg",
+      "category": "Верх",
+      "title": "Футболки",
+      "price": "709 ₴",
+      "description": "Модная короткая футболка с открытой спиной",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 52,
+      "image": "https://img.joomcdn.net/43630e92af42c9187e28a263ee3e7ba03c2c26c4_original.jpeg",
+      "category": "Верх",
+      "title": "Футболки",
+      "price": "500 ₴",
+      "description": "Женская футболка с коротким рукавом и принтом",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 53,
+      "image": "https://img.joomcdn.net/148815ab3d008b72bc2d4774aef790008295eb19_original.jpeg",
+      "category": "Верх",
+      "title": "Футболки",
+      "price": "200 ₴",
+      "description": "Женская футболка с открытыми плечами и короткими рукавами,",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 54,
+      "image": "https://img.joomcdn.net/4b2a3f29114c11a696231cab6bb1547ae575d6b6_original.jpeg",
+      "category": "Низ",
+      "title": "Джинсы",
+      "price": "1 200 ₴",
+      "description": "Винтажные Уличные Джинсовые Брюки ",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 55,
+      "image": "https://img.joomcdn.net/df7af5fcfea2afee4105099ca7ec12f1f79dc611_original.jpeg",
+      "category": "Низ",
+      "title": "Джинсы",
+      "price": "1 235 ₴",
+      "description": "Винтажные женские широкие джинсы Harajuku мешковатые ",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 56,
+      "image": "https://img.joomcdn.net/cd4704c16d166b0c1847c9f3df098af6f5019755_original.jpeg",
+      "category": "Низ",
+      "title": "Джинсы",
+      "price": "1 000 ₴",
+      "description": "Коричневые джинсы женские с высокой талией",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 57,
+      "image": "https://img.joomcdn.net/834ccabb789bd23e14557ecd795d5e50760bfeba_original.jpeg",
+      "category": "Низ",
+      "title": "Джинсы",
+      "price": "1 243 ₴",
+      "description": "Женские джинсы, свободные джинсовые брюки",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 58,
+      "image": "https://img.joomcdn.net/4ad734b97603ea25b64616ddb73fa285f558dd24_original.jpeg",
+      "category": "Низ",
+      "title": "Джинсы",
+      "price": "1 500 ₴",
+      "description": "личная одежда, эластичные джинсовые брюки-клеш",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 59,
+      "image": "https://img.joomcdn.net/e912f3f31dff8d8987d5b09afb63f9568e93f515_original.jpeg",
+      "category": "Низ",
+      "title": "Джинсы",
+      "price": "1 305 ₴",
+      "description": "Уличная одежда в стиле бойфренда",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 60,
+      "image": "https://img.joomcdn.net/10532db9cc6d2ed2493b325ec89ed5ce3d911ef9_original.jpeg",
+      "category": "Низ",
+      "title": "Брюки",
+      "price": "1 136 ₴",
+      "description": "Весенне-осенние черные свободные брюки",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 61,
+      "image": "https://img.joomcdn.net/076ce46495465a308809e962c59a229b47d11d6b_original.jpeg",
+      "category": "Низ",
+      "title": "Брюки",
+      "price": "1 900 ₴",
+      "description": "Лето-Осенние женские брюки, свободные прямые брюки",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 62,
+      "image": "https://img.joomcdn.net/714d432835b8521c00235716fedf69fe727597fb_original.jpeg",
+      "category": "Низ",
+      "title": "Брюки",
+      "price": "1 472 ₴",
+      "description": "Модные женские длинные брюки с высокой талией",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 63,
+      "image": "https://img.joomcdn.net/ad5189b84d00f3886e01565371d208e2b6b33889_original.jpeg",
+      "category": "Низ",
+      "title": "Брюки",
+      "price": "1 500 ₴",
+      "description": "Модные весенне-осенние свободные тонкие брюки ",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 64,
+      "image": "https://img.joomcdn.net/9bf42c16c6631ef6c4f2863b8e42a2b127e8783b_original.jpeg",
+      "category": "Низ",
+      "title": "Брюки",
+      "price": "1 000 ₴",
+      "description": "Брюки из чистого хлопка с девятью точками",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 65,
+      "image": "https://img.joomcdn.net/66c1df448f4c5c017c04d0358ae986d137156938_original.jpeg",
+      "category": "Низ",
+      "title": "Брюки",
+      "price": "500 ₴",
+      "description": "Плиссированные широкие брюки. Женские брюки на весну и лето",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 66,
+      "image": "https://img.joomcdn.net/75cb6999b3d2cec5bde3aa0ca90a1fae1849a8c8_original.jpeg",
+      "category": "Низ",
+      "title": "Шорты",
+      "price": "500 ₴",
+      "description": "спортивные шорты из ледяного шелка, летние тонкие ",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 67,
+      "image": "https://img.joomcdn.net/79c593c23129f34192dba88eb8de845fe789727c_original.jpeg",
+      "category": "Низ",
+      "title": "Шорты",
+      "price": "1 000 ₴",
+      "description": "Повседневные удобные элегантные шорты с поясом. ",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 68,
+      "image": "https://img.joomcdn.net/12f4c67786e6277cb8a4ab8107bf5859340bc4e6_original.jpeg",
+      "category": "Низ",
+      "title": "Шорты",
+      "price": "1 900 ₴",
+      "description": "Синие джинсовые шорты в стиле ретро",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 69,
+      "image": "https://img.joomcdn.net/fe5c12b7d1f2a42210f6766f89f15ebd18e1110a_original.jpeg",
+      "category": "Низ",
+      "title": "Шорты",
+      "price": "500 ₴",
+      "description": " летние модные шорты, однотонные спортивные шорты",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 70,
+      "image": "https://img.joomcdn.net/2b415343e483aba82f672226fb0b14cab5876857_original.jpeg",
+      "category": "Низ",
+      "title": "Шорты",
+      "price": "1 084 ₴",
+      "description": "шорты-карго с высокой талией в американском стиле",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 71,
+      "image": "https://img.joomcdn.net/45aa7dbc61efffeeafed5ec7f38acf45ebba6706_original.jpeg",
+      "category": "Низ",
+      "title": "Шорты",
+      "price": "300 ₴",
+      "description": "шорты Байкерские шорты для фитнеса",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 72,
+      "image": "https://img.joomcdn.net/7ddaf54315671a4854b44e15a467917c638fba4c_original.jpeg",
+      "category": "Низ",
+      "title": "Юбка",
+      "price": "683 ₴",
+      "description": "Коричневая женская мини-юбка нестандартной формы,",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 73,
+      "image": "https://img.joomcdn.net/71578adcf21005c17bdacde4b718f9927403237b_original.jpeg",
+      "category": "Низ",
+      "title": "Юбка",
+      "price": "1 000 ₴",
+      "description": "юбка трапециевидной формы",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 74,
+      "image": "https://img.joomcdn.net/55635162c83ee6835af3569dff4b9e7a437235c2_original.jpeg",
+      "category": "Низ",
+      "title": "Юбка",
+      "price": "900 ₴",
+      "description": "Юбка средней длины, женская летняя корейская версия",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 75,
+      "image": "https://img.joomcdn.net/89092dbc93c4da23ac7062ecadb7b89c36427051_original.jpeg",
+      "category": "Низ",
+      "title": "Юбка",
+      "price": "880 ₴",
+      "description": "Черные джинсовые юбки, женские мини-плиссированные",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 76,
+      "image": "https://img.joomcdn.net/5587409844b0bad547cedab37feb1a40dc7dda4f_original.jpeg",
+      "category": "Низ",
+      "title": "Юбка",
+      "price": "500 ₴",
+      "description": " повседневные женские юбки с цветочным принтом",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 77,
+      "image": "https://img.joomcdn.net/1b5d322079f6c7e68023478d43d0cf9ee32f01e1_original.jpeg",
+      "category": "Низ",
+      "title": "Юбка",
+      "price": "500 ₴",
+      "description": "мини-эластичные плиссированные юбки с высокой талией",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 79,
+      "image": "https://img.joomcdn.net/02250ab5ced0ed2433d4ca0fa1ff4b390a00bf40_original.jpeg",
+      "category": "Костюмы",
+      "title": "Классика",
+      "price": "1 800 ₴",
+      "description": "Комплекты из двух предметов",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 80,
+      "image": "https://img.joomcdn.net/e75d2370e62dbeac323deedd4244ea97fd750778_original.jpeg",
+      "category": "Костюмы",
+      "title": "Спортивная",
+      "price": "1 308 ₴",
+      "description": "сплошной цвет свободная толстовка с капюшоном на молнии",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 81,
+      "image": "https://img.joomcdn.net/2070a91375b6d0cc004de057f21bfefe3f198704_original.jpeg",
+      "category": "Костюмы",
+      "title": "Спортивная",
+      "price": "500 ₴",
+      "description": "спортивный комбинезон с длинными рукавами ",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 82,
+      "image": "https://img.joomcdn.net/78ddb5dd5f85bfc0354a992ec0b29f37ba3fd978_original.jpeg",
+      "category": "Костюмы",
+      "title": "Спортивная",
+      "price": "1 431 ₴",
+      "description": "теплые толстовки с капюшоном и длинные брюки",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 83,
+      "image": "https://img.joomcdn.net/5038800a07686349855ae0719ac067bd50c3bf7f_original.jpeg",
+      "category": "Костюмы",
+      "title": "Спортивная",
+      "price": "900 ₴",
+      "description": "спортивный костюм из 2 предметов",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 84,
+      "image": "https://img.joomcdn.net/edfb677fc0859289c0a5426ecdfe1e491c8cbbbd_original.jpeg",
+      "category": "Костюмы",
+      "title": "Спортивная",
+      "price": "1 066 ₴",
+      "description": "спортивный повседневный костюм-толстовка",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 85,
+      "image": "https://img.joomcdn.net/bc17c16f9a81551ea56cbccfadf04da35fcd552c_original.jpeg",
+      "category": "Костюмы",
+      "title": "Спортивная",
+      "price": "709 ₴",
+      "description": "спортивная одежда, однотонный свободный свитер, брюки",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 86,
+      "image": "https://img.joomcdn.net/39509773a94ee0b957753fec7c35bd900dd46ce2_original.jpeg",
+      "category": "Костюмы",
+      "title": "Классика",
+      "price": "1 750 ₴",
+      "description": "Блейзер, модное пальто с длинным рукавом",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 87,
+      "image": "https://img.joomcdn.net/c1ec497b24701b058d0b665fda99a03efe7684d7_original.jpeg",
+      "category": "Костюмы",
+      "title": "Классика",
+      "price": "2 524 ₴",
+      "description": "Костюм женский из полиэстера цвета в ассортименте",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 88,
+      "image": "https://img.joomcdn.net/206f1d8d77e2582688b8cb3e53ce05372f7394f7_original.jpeg",
+      "category": "Костюмы",
+      "title": "Классика",
+      "price": "1 235 ₴",
+      "description": "ZANZEA Комплекты из 2 предметов",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 89,
+      "image": "https://img.joomcdn.net/19c4c49ac5671bed7dff0d6f7d81946c5ec6fc90_original.jpeg",
+      "category": "Костюмы",
+      "title": "Классика",
+      "price": "1 472 ₴",
+      "description": "Простой женский наряд, свободные шорты с лацканами",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 90,
+      "image": "https://img.joomcdn.net/73142f261f95e3f1430521e1d2b147a883e273e8_original.jpeg",
+      "category": "Костюмы",
+      "title": "Классика",
+      "price": "4 315 ₴",
+      "description": "Женский жилет, брючный костюм из 2 шт./компл",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 91,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHIvgQMr0MBSrX4TX68gih-ym9E6d2zeZXtw&s",
+      "category": "Костюмы",
+      "title": "Классика",
+      "price": "4 315 ₴",
+      "description": "Женское длинное платье ",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 92,
+      "image": "https://img.joomcdn.net/cb81f28056cdfdb5a1bdd4ad7a7feb50f3de08dc_original.jpeg",
+      "description": "Корейский стиль, осенне-зимнее платье-свитер",
+      "price": " 2 392 ₴",
+      "title": "Платья",
+      "category": "Платья",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 93,
+      "image": "https://img.joomcdn.net/06f8d7c2a6ed58ed3fb3fa3a7ce07ca3ac74ad35_original.jpeg",
+      "description": "Женские черные платья с длинным рукавом",
+      "price": "817 ₴",
+      "title": "Платья",
+      "category": "Платья",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 94,
+      "image": "https://img.joomcdn.net/b222b5f5917eae55bc648b40fbc317c45d7a5103_original.jpeg",
+      "description": "Весенний модный тренд,с открытыми плечами",
+      "price": "1000 ₴",
+      "title": "Платья",
+      "category": "Платья",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 95,
+      "image": "https://img.joomcdn.net/d1fe4a5d16e5a9725188ce8f47214566ac010fd2_original.jpeg",
+      "description": "Платье с высокой талией длиной до колена",
+      "price": "1500 ₴",
+      "title": "Платья",
+      "category": "Платья",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 96,
+      "image": "https://img.joomcdn.net/d1fe4a5d16e5a9725188ce8f47214566ac010fd2_original.jpeg",
+      "description": "Платье с высокой талией длиной до колена",
+      "price": "1500 ₴",
+      "title": "Платья",
+      "category": "Платья",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 97,
+      "image": "https://img.joomcdn.net/4e7ca4feac937588a68b204338417e36ae894738_400_400.jpeg",
+      "description": "Элегантное женское блестящее платье ",
+      "price": "650 ₴",
+      "title": "Платья",
+      "category": "Платья",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 98,
+      "image": "https://img.joomcdn.net/a7278f6374636759b672bba833c3cb1643013951_original.jpeg",
+      "description": "YYFS Женская мода осень-зима",
+      "price": "1430 ₴",
+      "title": "Платья",
+      "category": "Платья",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 99,
+      "image": "https://img.joomcdn.net/8ac7893ccab08d93070ee3828c9c2a82398bbf90_1024_1024.jpeg",
+      "description": "Женское элегантное платье-водолазка",
+      "price": "807 ₴",
+      "title": "Платья",
+      "category": "Платья",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 100,
+      "image": "https://img.joomcdn.net/17e225af5027bcd6c440f63d178943ff25998aa5_original.jpeg",
+      "description": "Летнее сексуальное облегающее платье",
+      "price": "830 ₴",
+      "title": "Платья",
+      "category": "Платья",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 101,
+      "image": "https://img.joomcdn.net/674ec54ba8d5f150f2ded394327cecb5f566b0be_original.jpeg",
+      "description": "ZANZEA Женское летнее длинное платье",
+      "price": "1043 ₴",
+      "title": "Платья",
+      "category": "Платья",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 102,
+      "image": "https://img.joomcdn.net/d3349ef3b093f0faac730682c983bc13807e4861_original.jpeg",
+      "description": "Женская уличная одежда, костюм из двух предметов",
+      "price": "1389 ₴",
+      "title": "Классика",
+      "category": "Костюмы",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 103,
+      "image": "https://img.joomcdn.net/7c47893cf7d97b7732a6ccbccccf27dc66c2cc2c_original.jpeg",
+      "description": "Костюм пальто женский весенне-осенний",
+      "price": "2381 ₴",
+      "title": "Классика",
+      "category": "Костюмы",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 104,
+      "image": "https://img.joomcdn.net/ef1ebdd7fdbe19caf9361c9f90a7e04d361dff50_original.jpeg",
+      "description": "Женский комбинезон с ремешком",
+      "price": "1067 ₴",
+      "title": "Классика",
+      "category": "Костюмы",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 105,
+      "image": "https://img.joomcdn.net/42fc86a034647ad7a2434a96b36a13f997b5f028_400_400.jpeg",
+      "description": "Женский облегающий топ, женские широкие брюки",
+      "price": "1590 ₴",
+      "title": "Классика",
+      "category": "Костюмы",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 106,
+      "image": "https://img.joomcdn.net/1dcede00f368793954855342bb1b613835557583_original.jpeg",
+      "description": "Весенняя женская рубашка, плиссированный комплект из двух предметов",
+      "price": "1500 ₴",
+      "title": "Классика",
+      "category": "Костюмы",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 107,
+      "image": "https://img.joomcdn.net/12665d1c6fcf99e4a1d3d89fb65a3edd0d3bdbc5_original.jpeg",
+      "description": "Элегантный летний комбинезон с узкой талией",
+      "price": "1450 ₴",
+      "title": "Классика",
+      "category": "Костюмы",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 108,
+      "image": "https://img.joomcdn.net/47c2296855823ba7002cd7395a9ae160c8d1998a_original.jpeg",
+      "description": "Женский комплект из 2 шт./компл.",
+      "price": "1346 ₴",
+      "title": "Классика",
+      "category": "Костюмы",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 109,
+      "image": "https://img.joomcdn.net/11a6ab1272f2939620f4aa234a2e68310f3a95e1_original.jpeg",
+      "description": "Футболка с воротником-стойкой и брюками-трубой",
+      "price": "793 ₴",
+      "title": "Классика",
+      "category": "Костюмы",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 110,
+      "image": "https://img.joomcdn.net/50acd21605a906426c4c33cee3b11ee719bd7904_1024_1024.jpeg",
+      "description": "Женский короткий костюм в полоску",
+      "price": "1135 ₴",
+      "title": "Классика",
+      "category": "Костюмы",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 111,
+      "image": "https://img.joomcdn.net/3e35988a3cc8e859fb4010ec2e5a277414d4a226_original.jpeg",
+      "description": "Весенне-осенний новый стиль",
+      "price": "1200 ₴",
+      "title": "Пиджаки",
+      "category": "Верх",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 112,
+      "image": "https://img.joomcdn.net/d05b2845a06f309f4477028565e7603b9cdbcd43_original.jpeg",
+      "description": "Новый весенне-осенний пиджак",
+      "price": "1000 ₴",
+      "title": "Пиджаки",
+      "category": "Верх",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 113,
+      "image": "https://img.joomcdn.net/8ba8b4bba26a2063c22e50f561fcf4ce04bb5317_original.jpeg",
+      "description": "Стильный и удобный осенне-весенний",
+      "price": "850 ₴",
+      "title": "Пиджаки",
+      "category": "Верх",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 114,
+      "image": "https://img.joomcdn.net/9c763f1a01934aa93a636ef4a104d808406fb070_1022_1024.jpeg",
+      "description": "Повседневная и модная верхняя одежда",
+      "price": "1800 ₴",
+      "title": "Пиджаки",
+      "category": "Верх",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 115,
+      "image": "https://img.joomcdn.net/2cbfe46deda3aac513f6b09ae1089867bd321097_original.jpeg",
+      "description": "INCERUN Весенний тонкий хиппи ",
+      "price": "920 ₴",
+      "title": "Пиджаки",
+      "category": "Верх",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 116,
+      "image": "https://img.joomcdn.net/f87342b6600ef7f31f39517bfcd3fbc03e4fa615_original.jpeg",
+      "description": " новый женский клетчатый костюм",
+      "price": "2062 ₴",
+      "title": "Пиджаки",
+      "category": "Верх",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 117,
+      "image": "https://img.joomcdn.net/410f1fbfb5b0a254747a982c494963a8c9fc6ebf_original.jpeg",
+      "description": "Клетчатый лоскутный пиджак",
+      "price": "3000 ₴",
+      "title": "Пиджаки",
+      "category": "Верх",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 118,
+      "image": "https://img.joomcdn.net/2a821baab2366a43d42d0106e18a9a79cb4eb2d5_original.jpeg",
+      "description": "Повседневная,летняя,лёгкая блуза ",
+      "price": "600 ₴",
+      "title": "Рубашки",
+      "category": "Верх",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 119,
+      "image": "https://img.joomcdn.net/2bebb262edd6a76181e797e41f2ba88d15e9dee4_original.jpeg",
+      "description": "Женская белая рубашка с длинным рукавом",
+      "price": "800 ₴",
+      "title": "Рубашки",
+      "category": "Верх",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 120,
+      "image": "https://img.joomcdn.net/a6503bed1e798bd41d6dd9f6c2408b92d69dccd8_original.jpeg",
+      "description": "Винтажные рубашки с рукавами-фонариками",
+      "price": "1000 ₴",
+      "title": "Рубашки",
+      "category": "Верх",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 121,
+      "image": "https://img.joomcdn.net/77fd6441ad1c364d7613771c162deb007ee4a4f5_original.jpeg",
+      "description": "Винтажные рубашки женские ",
+      "price": "1300 ₴",
+      "title": "Рубашки",
+      "category": "Верх",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 122,
+      "image": "https://img.joomcdn.net/e4a847ce4cc6f4414e39653939b7fadc8b86a4ce_original.jpeg",
+      "description": "Женская модная рубашка-кардиган",
+      "price": "700 ₴",
+      "title": "Рубашки",
+      "category": "Верх",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 123,
+      "image": "https://img.joomcdn.net/3441d326cf389e8c018779e2723bc353fee865af_original.jpeg",
+      "description": "ZANZEA Женская рубашка",
+      "price": "2000 ₴",
+      "title": "Рубашки",
+      "category": "Верх",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 124,
+      "image": "https://img.joomcdn.net/5f35bff253a26746a42a96c15781bd5025898672_400_400.jpeg",
+      "description": "Свитшот с капюшоном",
+      "price": "800 ₴",
+      "title": "Свитшоты",
+      "category": "Верх",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 125,
+      "image": "https://img.joomcdn.net/6cabc3c2b4522b2e0c9283ea7a1e5a996af021c1_400_400.jpeg",
+      "description": "Белый свитшот с капюшоном",
+      "price": " 1800₴",
+      "title": "Свитшоты",
+      "category": "Верх",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 126,
+      "image": "https://img.joomcdn.net/b4743e979ad663f06035a5e7054ebffcb7a9bbb3_400_400.jpeg",
+      "description": "Свободный свитшот",
+      "price": " 450 ₴",
+      "title": "Свитшоты",
+      "category": "Верх",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 127,
+      "image": "https://img.joomcdn.net/b4743e979ad663f06035a5e7054ebffcb7a9bbb3_400_400.jpeg",
+      "description": "Фиерменная новинка",
+      "price": "1000 ₴",
+      "title": "Свитшоты",
+      "category": "Верх",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 128,
+      "image": "https://img.joomcdn.net/50a71e4c6b557a7ec8a6f8266013aa9d6e02f0f3_400_400.jpeg",
+      "description": "Осенний корейский свитшот",
+      "price": "1200 ₴",
+      "title": "Свитшоты",
+      "category": "Верх",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 129,
+      "image": "https://img.joomcdn.net/3eae4ba4df75656962ea3fdf8a1545752c88eac2_400_400.jpeg",
+      "description": "Винтажный свитшот",
+      "price": " 750 ₴",
+      "title": "Свитшоты",
+      "category": "Верх",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 130,
+      "image": "https://img.joomcdn.net/2002b80980edb9b79c7a830aeb48e7f81cdf3992_400_400.jpeg",
+      "description": "Зимний свитшот",
+      "price": "650 ₴",
+      "title": "Свитшоты",
+      "category": "Верх",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 131,
+      "image": "https://img.joomcdn.net/61664b84a099d4e84811d3892a78b3494fbee6c0_400_400.jpeg",
+      "description": "Модная толстовка ",
+      "price": "1560 ₴",
+      "title": "Худи",
+      "category": "Верх",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 132,
+      "image": "https://img.joomcdn.net/4d362d1ec7a23c95be725994c9bcde5b1c752a52_400_400.jpeg",
+      "description": "Модная толстовка ",
+      "price": "1560 ₴",
+      "title": "Худи",
+      "category": "Верх",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 133,
+      "image": "https://img.joomcdn.net/51f459f4f3a1ec1d0c515bf4d3f49b5e7aec52cf_400_400.jpeg",
+      "description": "Модная толстовка ",
+      "price": "1560 ₴",
+      "title": "Худи",
+      "category": "Верх",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 134,
+      "image": "https://img.joomcdn.net/51f459f4f3a1ec1d0c515bf4d3f49b5e7aec52cf_400_400.jpeg",
+      "description": "Модная толстовка ",
+      "price": "1560 ₴",
+      "title": "Худи",
+      "category": "Верх",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 135,
+      "image": "https://img.joomcdn.net/5a749a6321dd712e045e65a8fc489387592289d3_400_400.jpeg",
+      "description": "Модная толстовка ",
+      "price": "1560 ₴",
+      "title": "Худи",
+      "category": "Верх",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 136,
+      "image": "https://img.joomcdn.net/5a749a6321dd712e045e65a8fc489387592289d3_400_400.jpeg",
+      "description": "Модная толстовка ",
+      "price": "1560 ₴",
+      "title": "Худи",
+      "category": "Верх",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    },
+    {
+      "id": 137,
+      "image": "https://img.joomcdn.net/5a749a6321dd712e045e65a8fc489387592289d3_400_400.jpeg",
+      "description": "Модная толстовка ",
+      "price": "1560 ₴",
+      "title": "Худи",
+      "category": "Верх",
+      "view": "old",
+      "size": [
+        "XS-S",
+        "S-M",
+        "M-L",
+        "L-XL"
+      ]
+    }
+  ]
+}
