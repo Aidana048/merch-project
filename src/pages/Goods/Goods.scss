@@ -60,10 +60,30 @@
         margin-bottom: 20px;
 
         select {
-            width: 100px;
-            padding: 5px;
+            width: 150px;          
+            padding: 10px 15px;   
             font-size: 16px;
             cursor: pointer;
+            border: 2px solid #fda3c4; 
+            border-radius: 5px;   
+            background-color: #fff;
+            color: #333;          
+            transition: all 0.3s ease; 
+            
+            &:hover {
+                background-color: #fda3c4; 
+                color: #fff;               
+            }
+
+            &:focus {
+                outline: none;             
+                border-color: #333;      
+            }
+
+            option {
+                background-color: #fff; 
+                color: #333;           
+            }
         }
     }
 
@@ -76,6 +96,14 @@
         border-radius: 10px;
         margin-bottom: 30px;
         text-align: center;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #f68aab;
+        }
     }
 
     &__sizing {
@@ -89,5 +117,17 @@
         text-transform: uppercase;
         text-align: center;
         cursor: pointer;
+        transition: all 0.3s ease;
+
+        &:hover {
+            background-color: #fda3c4;
+            color: #fff;
+        }
+    }
+
+    .error {
+        color: #ff4d4d; 
+        font-size: 14px;
+        margin-top: 10px;
     }
 }

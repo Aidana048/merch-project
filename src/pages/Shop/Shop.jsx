@@ -6,7 +6,6 @@ import btn from './кнопка.png'
 import { useSelector, useDispatch } from 'react-redux';
 import { deleteShop } from '../../store/shopSlice';
 
-
 const Shop = () => {
     const [isVisible, setIsVisible] = useState(true);
     const { shop } = useSelector(state => state.shopSlice);
@@ -31,6 +30,13 @@ const Shop = () => {
         navigate('/');
     };
 
+    const handleCheckout = (e) => {
+        if (shop.length === 0) {
+            e.preventDefault(); 
+            alert("Выберите товар");
+        }
+    };
+
     if (!isVisible) return null;
 
     return (
@@ -43,7 +49,7 @@ const Shop = () => {
                     <button onClick={() => remove(el)}>X</button>
                     <div className="shop__inf">
                         <h3>{el.description}</h3>
-                        <h4>{el.size}</h4>
+                        <h4>Размер:{el.targetSize}</h4>
                         <p>{el.price}</p>
                         <h2>Количество: {el.count}</h2>
                     </div>
@@ -53,7 +59,7 @@ const Shop = () => {
                 <h1>Сумма заказа: . . .</h1>
                 <p>{totalPrice.toLocaleString()} ₴</p>
             </div>
-            <Link to={'/placing'}>
+            <Link to={'/placing'} onClick={handleCheckout}>
                 <img src={btn} alt="" className='shop__btn' />
             </Link>
         </div>

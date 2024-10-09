@@ -4,7 +4,10 @@ import contact from './заголоок контактные даные.png';
 import dostavka from './заголоок контактные даные (1).png';
 import oplata from './заголоок контактные даные (2).png';
 import btn from './кнопка (1).png';
-import { Link } from 'react-scroll';
+import PhoneInput from 'react-phone-input-2';
+import 'react-phone-input-2/lib/style.css';
+import { Link } from 'react-router-dom';
+
 
 const Placing = () => {
   const [contactData, setContactData] = useState({
@@ -18,11 +21,14 @@ const Placing = () => {
   const [paymentOption, setPaymentOption] = useState('');
   const [cardNumber, setCardNumber] = useState('');
   const [confirmationOption, setConfirmationOption] = useState('');
-  const [isOrderSubmitted, setIsOrderSubmitted] = useState(false); 
 
   const handleContactChange = (e) => {
     const { name, value } = e.target;
     setContactData(prevState => ({ ...prevState, [name]: value }));
+  };
+
+  const handlePhoneChange = (value) => {
+    setContactData(prevState => ({ ...prevState, phoneNumber: value }));
   };
 
   const handleDeliveryChange = (e) => {
@@ -42,15 +48,25 @@ const Placing = () => {
   };
 
   const handleSubmit = () => {
-    console.log('Contact Data:', contactData);
-    console.log('Delivery Option:', deliveryOption);
-    console.log('Payment Option:', paymentOption);
-    console.log('Card Number:', cardNumber);
-    console.log('Confirmation Option:', confirmationOption);
-        setIsOrderSubmitted(true);
-  };
+    const { firstName, lastName, phoneNumber, email } = contactData;
 
- 
+    if (
+      !firstName || 
+      !lastName || 
+      !phoneNumber || 
+      !email || 
+      !deliveryOption || 
+      !paymentOption || 
+      (paymentOption === 'option1' && !cardNumber) || 
+      !confirmationOption
+    ) {
+      alert('Заполните все поля');
+      return;
+    }
+
+    alert('Ваш заказ принят');
+    window.location.href = '/';
+  };
 
   return (
     <section className='placing'>
@@ -65,7 +81,21 @@ const Placing = () => {
               <input type='text' id='lastName' name='lastName' placeholder='Фамилия' value={contactData.lastName} onChange={handleContactChange} />
             </label>
             <label htmlFor='phoneNumber'>
-              <input type='tel' id='phoneNumber' name='phoneNumber' placeholder='Номер телефона' value={contactData.phoneNumber} onChange={handleContactChange} />
+              <div className='placing__phone-input-container'>
+                <PhoneInput
+                  country={'us'}
+                  value={contactData.phoneNumber}
+                  onChange={handlePhoneChange}
+                  inputProps={{
+                    name: 'phoneNumber',
+                    required: true,
+                    autoFocus: true
+                  }}
+                  placeholder="Введите номер телефона"
+                  // containerClass="placing__phone-input-container"
+                  // inputClass="placing__phone-input"
+                />
+              </div>
             </label>
             <label htmlFor='email'>
               <input type='email' id='email' name='email' placeholder='Email' value={contactData.email} onChange={handleContactChange} />
@@ -125,15 +155,8 @@ const Placing = () => {
           </Link>
         </div>
       </div>
-
-      {isOrderSubmitted && (
-        <div className='placing__popup'>
-          <div className='placing__popup-content'>
-            <h2>Успешно принят ваш заказ</h2>
-          </div>
-        </div>
-      )}
     </section>
   );
 };
+
 export default Placing;

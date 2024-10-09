@@ -40,7 +40,9 @@ const Header = () => {
            <div className="header__top">
             <img src={inf} alt="" className='header__inf'/>
             <div className="header__logo">
-            <img src={logo} alt="" />
+                <Link to={'/'}>
+                <img src={logo} alt="" />
+                </Link>
             </div>
             <Link to='/favourite' className='sm-hide'><img src={like} alt="" className='header__favourite'/></Link>  
             <Link to={'/shop'}>

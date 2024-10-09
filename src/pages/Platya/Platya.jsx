@@ -4,8 +4,9 @@ import { Link } from 'react-router-dom';
 import lin from './Vector 153 (1).png'
 import { useDispatch, useSelector } from 'react-redux';
 import { addToFavor } from '../../store/favorSlice';
+import { useGetDressesQuery } from '../../api/product/dresses';
 const Platya = () => {
-    const {data}=useSelector(state=>state.productsSlice)
+    const { data } = useGetDressesQuery()
     const { favors } = useSelector(state => state.favorSlice)
     const dispatch = useDispatch()
 
@@ -14,16 +15,17 @@ const Platya = () => {
         dispatch(addToFavor(product))
     }
 
+    console.log(data)
 
     return (
         <section className='platya'>
             <div className="platya__container container">
                 <div className="platya__choice">
-                    {data.filter((el)=>el.category==='Платья')
+                    {data?.filter((el)=>el.category==='Платья')
                     .map((el)=>(
                         <div className="platya__img">
                             <div className="platya__photo">
-                                <Link className='test' to={`/goods/${el.id}`}>
+                                <Link className='test' to={`/goods/${el._id}`}>
                                 <div className='platya__image'>
                                     <img src={el.image} alt="" />
                                 </div>

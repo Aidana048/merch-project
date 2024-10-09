@@ -5,7 +5,6 @@ import MenuItem from "@mui/material/MenuItem";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import shop from "./akar-icons_shopping-bag.png";
 import { PiUserCircle, PiUserCircleCheck } from "react-icons/pi";
 import { logOut } from "../../../store/userRegis";
 import like from './akar-icons_heart.png'

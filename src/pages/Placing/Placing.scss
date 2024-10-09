@@ -1,115 +1,148 @@
 .placing {
-    &__container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 20px;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  &__section {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      max-width: 300px;  
+      max-height: 200px; 
+      margin-bottom: 15px;
     }
-  
-    &__section {
-      width: 100%;
-      max-width: 600px;
-      margin-bottom: 30px;
+
+    form {
       display: flex;
       flex-direction: column;
-      align-items: center;
-  
-      img {
-        width: 400px;
-        height: 300px;
-        margin-bottom: 15px;
-      }
-  
-      form {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+      align-items: flex-start;
+      width: 100%;
+
+      label {
         width: 100%;
-  
-        label {
-          width: 100%;
-          margin-bottom: 10px;
+        margin-bottom: 10px;
         margin-left: 25px;
-        
-          input[type='text'],
-          input[type='tel'],
-          input[type='email'] {
-            width: calc(100% - 20px);
-            padding: 10px;
-            margin: 5px 0;
-          }
-        }
-  
-        div {
-          width: 100%;
-          margin-bottom: 10px;
-          display: flex;
-          align-items: center;
-  
-          input[type='radio'] {
-            margin-right: 10px;
-          }
-  
-          label {
-            font-size: 16px;
-          }
+
+        input[type='text'],
+        input[type='tel'],
+        input[type='email'] {
+          width: calc(100% - 60px);  // Учитываем ширину флага
+          padding: 10px;
+          margin: 5px 0;
         }
       }
-  
-      p {
-        text-align: center;
-        font-size: 14px;
-        color: #333;
-      }
-    }
-  
-    &__contact,
-    &__delivery,
-    &__payment {
-      form {
-        align-items: flex-start;
-  
-        label {
-          input[type='text'],
-          input[type='tel'],
-          input[type='email'] {
-            margin-bottom: 10px;
-          }
-        }
-  
-        div {
-          flex-direction: column;
-          align-items: flex-start;
-        }
-      }
-    }
-  
-    &__confirmation {
-      width: 100%;
-      max-width: 600px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 20px;
-  
+
       div {
         width: 100%;
+        margin-bottom: 10px;
         display: flex;
         align-items: center;
-  
+
         input[type='radio'] {
           margin-right: 10px;
         }
-  
+
         label {
           font-size: 16px;
         }
       }
-  
-      img {
-        margin-top: 20px;
-        cursor: pointer;
+    }
+
+    p {
+      text-align: center;
+      font-size: 14px;
+      color: #333;
+    }
+  }
+
+  &__contact,
+  &__delivery,
+  &__payment {
+    form {
+      align-items: flex-start;
+
+      label {
+        input[type='text'],
+        input[type='tel'],
+        input[type='email'] {
+          margin-bottom: 10px;
+        }
+      }
+
+      div {
+        flex-direction: column;
+        align-items: flex-start;
       }
     }
   }
+
+  &__confirmation {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+    div {
+      width: 100%;
+      display: flex;
+      align-items: center;
+
+      input[type='radio'] {
+        margin-right: 10px;
+      }
+
+      label {
+        font-size: 16px;
+      }
+    }
+
+    img {
+      margin-top: 20px;
+      cursor: pointer;
+    }
+  }
+
+
   
+
+  .placing__phone-input-container .flag-dropdown {
+    margin-left: 10px;  // Отступ слева для флага
+    height: 100%; // Высота флага соответствует высоте поля ввода
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+  }
+
+  .placing__phone-input-container .country-list {
+    font-size: 14px;
+  }
+}
+
+.placing__phone-input {
+  padding: 5px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px; // Отступ справа для флага
+}
+
+.flag-dropdown {
+  width: 40px !important;
+  margin-left: 0 !important;
+  border: 1px solid #767676 !important;
+}
+.form-control {
+  height: 39px !important;
+  padding-left: 50px !important;
+  border: 1px solid #767676 !important;
+}

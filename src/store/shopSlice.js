@@ -10,12 +10,13 @@ export const shopSlice=createSlice({
         addToShop:(state,action)=>{
             let idx =state.shop.findIndex((el)=>{
                
-                return el.id===action.payload.id})
+                return el.id===action.payload.id && el.targetSize === action.payload.targetSize})
             if(idx>=0){
+
               
 
                 state.shop=state.shop.map((el)=>{
-                    if(el.id===action.payload.id && el.targetSize === action.payload.targetSize ){
+                    if(el.id===action.payload.id){
                         return {...el,count:el.count+1}
                     }
                     else{
